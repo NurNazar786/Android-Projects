@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Royal Store Online</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="menu">Menu</string>
+
+    <string name="myCart">My  Cart</string>
+    <string name="name">Name</string>
+    <string name="highlights">Highlights :</string>
+    <string name="my_title">N N R :</string>
+
+
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="green">Green</string>
+    <string name="color">Color  :</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add">Add to Cart</string>
+
+    <string name="discount">-10%</string>
+    <string name="disc_price">5000</string>
+    <string name="price">0</string>
+
+    <string name="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="deal">Hot Deal</string>
+    <string name="stock">Available</string>
+    <string name="qnt">Quantity : </string>
+    <string name="check_out">Continue</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="mobile">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="date">Date Shipping</string>
+    <string name="comment">Additional Comments</string>
+
+    <string name="information">Information</string>
+    <string name="order_detail">Product Order List</string>
+    <string name="cost">Cost Details</string>
+    <string name="subtotal">Subtotal </string>
+    <string name="tax">Tax</string>
+    <string name="total">Total </string>
+    <string name="tax_percent">12% </string>
+    <string name="quantity">1</string>
+    <string name="order">Process Checkout</string>
+
+    <string name="your_name">Hello, Kashif</string>
+    <string name="your_email">Kashif123@gmail.com</string>
+    <string name="your_order">Your Orders</string>
+    <string name="your_account">Your Account</string>
+    <string name="logout">Logout You</string>
+    <string name="your_address">Your Address</string>
+    <string name="menu_category">Menu Category</string>
+
+    <string name="something">Something went wrong</string>
+
+
+
+
+</resources>
