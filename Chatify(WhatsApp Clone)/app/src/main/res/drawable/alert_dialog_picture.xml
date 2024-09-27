@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      android:layout_margin="15dp"
+    android:background="@color/teal_200"
+
+   >
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_camera"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Camera"
+        android:textColor="@color/black"
+        android:layout_below="@+id/camera"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="4dp"/>
+
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_gallery"
+         android:layout_marginLeft="210dp"
+        android:layout_marginRight="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Gallery"
+        android:textColor="@color/black"
+        android:layout_below="@+id/gallery"
+        android:layout_marginLeft="225dp"
+        android:layout_marginBottom="4dp"/>
+
+
+</RelativeLayout>

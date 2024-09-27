@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_back_shape"
+    tools:context=".activity.LoginActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bluewhatsapp"
+        app:civ_border_width="5dp"
+        android:layout_marginTop="10dp"
+        app:civ_border_color="@color/black"
+        android:layout_gravity="center"/>-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/whatsapp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:id="@+id/edit2"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:endIconMode="clear_text"
+        android:hint="Enter Email"
+        app:endIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginEmail"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit3"
+        android:hint="Enter password"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:padding="3dp"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/edit2"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/black"
+        app:endIconCheckable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/loginPass"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- android:ems="10"-->
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:layout_below="@id/edit3"
+        android:text="Login"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/whatsappColor"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="3dp"/>
+
+    <View
+        android:layout_width="105dp"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="55dp"
+        android:layout_below="@id/loginBtn"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Login with"
+        android:textSize="15dp"
+        android:id="@+id/txt"
+        android:textColor="@color/white"
+        android:layout_below="@id/loginBtn"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/view1"/>
+
+    <View
+        android:layout_width="105dp"
+        android:layout_height="2dp"
+        android:id="@+id/view2"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_below="@id/loginBtn"
+        android:layout_toRightOf="@+id/txt"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginGoogleBtn"
+        android:layout_below="@id/view1"
+        android:text="Google"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="200dp"
+        android:textAllCaps="false"
+        android:layout_marginStart="18dp"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/loginFacebookBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:text="Facebook"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="200dp"
+        android:backgroundTint="@color/fb_color"
+
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtt"
+        android:textSize="15dp"
+        android:layout_below="@+id/loginGoogleBtn"
+        android:layout_marginStart="70dp"
+        android:text="Don't have an account?"
+        android:textColor="#DCD6D6"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpActivity"
+        android:layout_below="@+id/loginGoogleBtn"
+        android:layout_toRightOf="@+id/txtt"
+        android:text=" Sign Up Now"
+        android:textSize="17dp"
+        android:layout_marginStart="3dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp" />
+
+    <View
+        android:layout_width="95dp"
+        android:layout_height="1dp"
+        android:id="@+id/view3"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="9dp"
+        android:layout_below="@id/loginFacebookBtn"
+        android:layout_toRightOf="@+id/txtt"
+        android:background="@color/fb_color"/>
+</RelativeLayout>
+</ScrollView>

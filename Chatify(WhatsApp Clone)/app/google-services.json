@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "897489375674",
+    "firebase_url": "https://whatsapp-with-chatbot-default-rtdb.firebaseio.com",
+    "project_id": "whatsapp-with-chatbot",
+    "storage_bucket": "whatsapp-with-chatbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897489375674:android:8cf97fe3438f4836008d83",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897489375674-so7899pbn74bih4q20hh058e1org49fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsapp",
+            "certificate_hash": "10563501e8e2cecd55e94b4ea1dd9fede1b4c694"
+          }
+        },
+        {
+          "client_id": "897489375674-3222s9gv6jmi1r479m27dfpmgh63jrh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe3okMIM8z73mgrtQWj0WiSwftk_2fm_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897489375674-3222s9gv6jmi1r479m27dfpmgh63jrh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

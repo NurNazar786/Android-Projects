@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_chat"
+    tools:context=".chat_gpt.activity.ChatWithExpertActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_out"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary">
+
+
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat  GPT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear"
+        android:layout_below="@id/linear_out"
+        android:layout_marginBottom="5dp"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="2dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="25dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="5dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/transparent">
+
+
+
+                <EditText
+                    android:id="@+id/edMessage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Type a message"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="5dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@android:color/transparent"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_keyboard_voice_24"
+            android:layout_margin="5dp"
+            android:tint="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
