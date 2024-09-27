@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#008000</color>
+
+    <color name="orange">#FFA500</color>
+
+    <color name="primary">#0b6156</color>
+
+    <color name="grey">#8d99ae</color>
+    <color name="light_grey">#E7E5E5</color>
+    <color name="dark_orange">#EA8505</color>
+
+    <color name="reg_color">#448AFF</color>
+    <color name="my_color">#A0F6E2</color>
+    <color name="red">#DD2C00</color>
+    <color name="search">#00C853</color>
+    <color name="login_color">#3BA8BE</color>
+    <color name="item_color">#9BE9F8</color>
+    <color name="status">#45B649</color>
+    <color name="app">#2E3192</color>
+    <color name="store">#009688</color>
+    <color name="simmer">#DDDDDD</color>
+
+    <color name="bg_grey">#C8C6C6</color>
+    <color name="galaxy">#DD2C00</color>
+</resources>

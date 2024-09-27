@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GalaxyStore" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/app_color</item>
+
+        <item name="android:navigationBarColor">@color/light_grey</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+
+
+    </style>
+    <dimen name="design_bottom_navigation_height" tools:override="true">54dp</dimen>
+
+    <style name="Theme.GalaxyStore" parent="Base.Theme.GalaxyStore" />
+</resources>

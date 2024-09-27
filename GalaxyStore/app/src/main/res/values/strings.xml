@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Galaxy Store</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">N N R</string>
+    <string name="splash">Galaxy</string>
+    <string name="splash_sc">Store</string>
+
+    <string name="sign">Welcome to Galaxy Store</string>
+    <string name="mobile">Enter mobile number</string>
+    <string name="cont">Continue</string>
+
+    <string name="loading">Loading....</string>
+    <string name="otp_text">OTP  Verification</string>
+    <string name="code">We have send a verification code to number</string>
+    <string name="num">+91</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="menu">Menu</string>
+    <string name="no_products"> No products in this category </string>
+
+
+    <string name="product_details">Product  Details</string>
+    <string name="product_name">Product Name</string>
+    <string name="deal">Hot Deal</string>
+    <string name="discount">-10%</string>
+    <string name="disc_price">5000</string>
+    <string name="price">₹4500.00</string>
+    <string name="stock">Available</string>
+    <string name="highlights">Highlights :</string>
+    <string name="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="add">Add to Cart</string>
+
+
+    <string name="myCart">My  Cart</string>
+    <string name="qnt">Quantity : </string>
+    <string name="count">1</string>
+    <string name="total">Subtotal  ₹00000.00</string>
+
+    <string name="checkout"> Checkout </string>
+    <string name="order_list">Product  Order  List</string>
+    <string name="cost_details">Cost Details</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax : </string>
+    <string name="tax_percent">10%</string>
+    <string name="check_total">Total </string>
+    <string name="phone_pe">PhonePe UPI</string>
+    <string name="order">Place Order</string>
+
+    <string name="address">Please enter your address</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone No.</string>
+    <string name="pin">Pin Code</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="addr">Address(Area,Colony,etc.)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="your_name">Hello, Kashif</string>
+    <string name="your_mobile">9999999999</string>
+    <string name="your_order">Your Orders</string>
+    <string name="your_account">Your Account</string>
+    <string name="logout">Logout You</string>
+    <string name="your_address">Your Address</string>
+
+    <string name="my_order">My Orders</string>
+    <string name="order_date">Order Date :-</string>
+    <string name="order_detail">Order Details</string>
+    <string name="order_id">Order ID :-</string>
+    <string name="order_status">Delivered</string>
+    <string name="payment">Payment Methods</string>
+    <string name="shipping_adr">Shipping Address</string>
+    <string name="country">India</string>
+    <string name="price_detail">Price Details</string>
+    <string name="price_selling">Selling Price : </string>
+    <string name="price_discount">Discount : </string>
+    <string name="after_discount">After Discount : </string>
+    <string name="order_total">Order Total : </string>
+
+
+    <string name="edit">Edit</string>
+    <string name="edit_adr">Your Address</string>
+    <string name="menu_back">Menu Category</string>
+
+
+</resources>

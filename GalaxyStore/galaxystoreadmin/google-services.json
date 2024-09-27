@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "818388727880",
+    "project_id": "galaxy-store-814c0",
+    "storage_bucket": "galaxy-store-814c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818388727880:android:0d79fdbca622c76fc0807d",
+        "android_client_info": {
+          "package_name": "com.example.galaxystore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRmm1ynZMI57I_i3aHOLAYU54utB1KhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818388727880:android:39ba747030111593c0807d",
+        "android_client_info": {
+          "package_name": "com.example.galaxystoreadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRmm1ynZMI57I_i3aHOLAYU54utB1KhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

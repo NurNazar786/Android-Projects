@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Galaxy Store Admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">N N R</string>
+    <string name="splash">Galaxy Store</string>
+    <string name="sign">Welcome to Galaxy Store Admin</string>
+    <string name="splash_sc">Admin</string>
+    <string name="mobile">Enter mobile number</string>
+    <string name="cont">Continue</string>
+
+    <string name="loading">Loading....</string>
+    <string name="otp_text">OTP  Verification</string>
+    <string name="code">We have send a verification code to number</string>
+    <string name="num">+91</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_add">Add Product</string>
+    <string name="menu_order">Order</string>
+
+    <string name="text">Please fill Product Details</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_stock">Stock</string>
+    <string name="product_cat">Product Category</string>
+    <string name="product_img">Click for select some product image</string>
+    <string name="desc">Product Description</string>
+    <string name="discount">Price Discount %</string>
+
+    <string name="add">Add Product</string>
+    <string name="no_products"> No products added in this category </string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="update">Update Product Details</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_profile">Account</string>
+
+
+    <string name="action_shipped">Shipped</string>
+    <string name="action_dispatched">Dispatched</string>
+    <string name="action_delivered">Delivered</string>
+
+    <string name="price">₹4500.00</string>
+
+    <string name="order_date">Order Date :-</string>
+    <string name="order_detail">Order Details</string>
+    <string name="order_id">Order ID :-</string>
+    <string name="order_status">Delivered</string>
+    <string name="payment">Payment Methods</string>
+    <string name="phone_pe">PhonePe UPI</string>
+    <string name="shipping_adr">Shipping Address</string>
+    <string name="country">India</string>
+    <string name="price_detail">Price Details</string>
+    <string name="price_selling">Selling Price : </string>
+    <string name="price_discount">Discount : </string>
+    <string name="after_discount">After Discount : </string>
+    <string name="order_total">Order Total : </string>
+    <string name="tax_percent">10%</string>
+    <string name="tax">Tax : </string>
+
+    <string name="pin">Pin Code</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="colony">Colony</string>
+    <string name="area">Area</string>
+    <string name="confirm_order">Confirm Order</string>
+
+
+
+
+
+
+    <string-array name="category">
+        <item>Mobile</item>
+        <item>Laptop</item>
+        <item>Smart Watch</item>
+        <item>Camera</item>
+        <item>Shoes</item>
+        <item>Men Fashion</item>
+        <item>Women Fashion</item>
+        <item>Trimmers</item>
+        <item>Headphones</item>
+
+
+    </string-array>
+
+
+</resources>

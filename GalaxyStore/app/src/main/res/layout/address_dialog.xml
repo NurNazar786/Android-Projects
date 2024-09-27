@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_update"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.00dp"
+        android:text="@string/address"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20ssp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/full_name"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/phone"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pinCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/pin"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/state"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/city"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.00dp"
+        android:layout_marginStart="17.00dp"
+        android:layout_marginEnd="17.00dp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:cursorColor="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/adr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="@string/addr"
+            android:gravity="top|start"
+            android:maxLines="3"
+            android:minLines="2"
+            android:scrollbars="vertical"
+            android:lines="3"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="50.50dp"
+            android:layout_weight=".5"
+            android:layout_marginHorizontal="17.00dp"
+            android:layout_marginTop="20.00dp"
+            android:layout_marginBottom="20.00dp"
+            android:backgroundTint="@color/light_grey"
+            android:text="@string/cancel"
+            android:textSize="@dimen/_20ssp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:cornerRadius="8.40dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveBtn"
+            android:layout_width="0dp"
+            android:layout_height="50.50dp"
+            android:layout_weight=".5"
+            android:layout_marginHorizontal="17.00dp"
+            android:layout_marginTop="20.00dp"
+            android:layout_marginBottom="20.00dp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/save"
+            android:textSize="@dimen/_20ssp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:cornerRadius="8.40dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
